@@ -1,1 +1,1 @@
-# https://thacischott.github.io/challenger/
+# http://thaciane.schott/challenger/
