@@ -1,1 +1,1 @@
-#  http://www.thacianetrigo.com/challenger/
+#  http://webmaster.thaci/challenger/
