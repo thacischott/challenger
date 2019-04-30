@@ -4,7 +4,17 @@
     max-height:50px;
     width: auto;
     height: auto;
-    display: inline-block;
+    float: left;
+    width: 33.33%;
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    
+    /* display: inline-block;*/
+    
+    
 }
 
 img{
