@@ -2,8 +2,6 @@
 .img-rede img{
     max-width:100px;
     max-height:50px;
-    width: auto;
-    height: auto;
     float: left;
     width: 33.33%;
    .row::after {
