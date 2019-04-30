@@ -1,1 +1,1 @@
-#  http://thaciane.io/challenger/
+#  http://www.thacianetrigo.com/challenger/
