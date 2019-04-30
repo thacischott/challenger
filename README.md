@@ -1,1 +1,1 @@
-#  https://webmaster.thaci/
+#  http://webmaster.thaci/
