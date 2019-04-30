@@ -1,1 +1,1 @@
-#  http://webmaster.thaci//challenger
+#  https://webmaster.thaci/
