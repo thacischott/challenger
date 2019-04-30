@@ -7,12 +7,10 @@
    .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: table;  
+    /* display: inline-block;*/       
 }
-    
-    /* display: inline-block;*/
-    
-    
+   
 }
 
 img{
