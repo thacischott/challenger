@@ -1,1 +1,1 @@
-# http://thaciane.info/challenger
+# challenger
