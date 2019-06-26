@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -32,36 +33,36 @@
           <form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <label>Nome</label>
+                <input class="form-control" id="nomeid" type="text" placeholder="Nome" required="required" data-validation-required-message="Por favor, escreva seu nome.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <label>Email </label>
+                <input class="form-control" id="emailid" type="email" placeholder="Email" required="required" data-validation-required-message="Por favor, informe seu email.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                <label>Telefone</label>
+                <input class="form-control" id="foneid" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Por favor, infome seu telefone.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <label>Mensagem</label>
+                <textarea class="form-control" id="msgid" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Porfavor, escreva sua mensagem"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              <input type="submit" class="btn btn-primary btn-xl" onclick="enviar();"value="enviar" />
             </div>
           </form>
         </div>
@@ -70,6 +71,6 @@
     </div>
   </section>
 
-
 </html>  
+
 
