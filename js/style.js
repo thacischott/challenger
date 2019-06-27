@@ -1,5 +1,5 @@
 
-
+/* function que chama a janela ao clicar no botão "enviar" */
 function enviar()
   {
 
@@ -13,11 +13,3 @@ function enviar()
       }
 
   }
-
-
-$('.carousel').slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 4,
-  slidesToScroll: 4
-});
