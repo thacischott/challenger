@@ -31,4 +31,6 @@ body {
 .carousel {
   width: 1000px;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
