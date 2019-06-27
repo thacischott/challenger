@@ -1,6 +1,6 @@
 
-
-.img-rede img{
+/* style para as imagens de rede social*/
+.img-rede img{ 
     max-width:100px;
     max-height:50px;
     float: left;
@@ -14,6 +14,7 @@
    
 }
 
+/* style para as imagens IHF */
 img{
     max-width:500px;
     max-height:450px;
@@ -24,10 +25,12 @@ img{
     margin-right: auto;
 }
 
+/* backgorund branco*/
 body {
   background-color: #FFFFFF;
 }
 
+/* style para as imagens da home */
 .carousel {
   width: 1000px;
   margin: 0 auto;
